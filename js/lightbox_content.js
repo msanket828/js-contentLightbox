@@ -10,21 +10,6 @@ lists.forEach(function(list) {
 	list.addEventListener('click',clickList);
 })
 
-//================Mannually added lightbox in html==========================
-
-// function clickList() {	
-// 	lightbox.lastElementChild.children[1].src=this.children[0].src;	
-// 	lightbox.lastElementChild.children[2].innerText=this.children[1].innerText;
-// 	lightbox.classList.add("active");
-// }
-
-//to close btn
-// close.addEventListener('click',function() {
-// 	lightbox.classList.remove("active");
-// })
-
-
-
 // ====================> dynamically added lightbox content <====================================//
 function clickList(list) {	
 	var liNode=document.createElement("li");
